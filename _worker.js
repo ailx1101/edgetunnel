@@ -4,7 +4,7 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = '90cd4a77-141a-43c9-991b-08263cfe9c10';
+let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
 
 let proxyIP = '';// 小白勿动，该地址并不影响你的网速，这是给CF代理使用的。'cdn.xn--b6gac.eu.org, cdn-all.xn--b6gac.eu.org, workers.cloudflare.cyou'
 
@@ -1187,7 +1187,7 @@ function 配置信息(UUID, 域名地址) {
 	
 	const 传输层协议 = 'ws';
 	const 伪装域名 = 域名地址;
-	const 路径 = '/?ed=2560';
+	const 路径 = '/?ed=2048';
 	
 	let 传输层安全 = ['tls',true];
 	const SNI = 域名地址;
